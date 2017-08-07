@@ -7,10 +7,10 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="dist/css/style.min.css">
-    <link rel="stylesheet" href="dist/css/fontello.min.css">
     <style type="text/css">
-        .container{
+        *{
             font-family:'Microsoft YaHei';
+            font-weight: 100;
         }
         #blank {
             margin-bottom: 8px;
@@ -24,9 +24,20 @@
             color: #616161;
         }
         .setStyle > li{
-            line-height: 25px;
-            font-size: 15px;
+            line-height: 35px;
+            font-size: 16px;
             margin-left: 40px;
+        }
+        .setWidth{
+            display: inline-block;
+            width: 200px;
+        }
+        .side-info{
+            margin-left: 10px;
+        }
+        .main-info{
+            margin-left: 10px;
+            padding-right: 30px;
         }
     </style>
     <script>
@@ -69,14 +80,20 @@
             </div>
             <ul class="side-info">
                 <li class="someRight">
+                    <dt>应聘岗位</dt>
+                    <dd>前端工程师 </dd>
+                </li>
+                <li class="someRight">
                     <dt>联系方式</dt>
                     <dd>Tel：13604802311</dd>
                     <dd>E-Mail：guankaili95@163.com</dd>
                     <dd>Github：sunningcarryhaha</dd>
                 </li>
-                <li class="someRight">
-                    <dt>应聘岗位</dt>
-                    <dd>前端工程师 </dd>
+                 <li>
+                    <dt>获得奖项</dt>
+                    <dd>黑龙江大学移动应用设计竞赛一等奖</dd>
+                    <dd>黑龙江大学ACM竞赛三等奖</dd>
+                    <dd>黑龙江大学三等奖学金</dd>        
                 </li>
                 <li class="someRight">
                     <dt>主修课程</dt>
@@ -91,12 +108,10 @@
             <ul class="main-info">
                 <li class="someRight">
                     <dt>教育背景</dt>
-                    <dd>黑龙江大学</dd>
-                    <dd>计算机科学技术学院</dd>
-                    <dd>本科(2014-2018)</dd>
-                    <dd>专业综合排名第八</dd>
-                    <!--<dd><span>GitHub:</span> <a href="https://github.com/sunningcarryhaha" target="_blank">https://github.com/sunningcarryhaha</a></dd>
-                    <dd><span>Blog:</span> <a href="http://www.jianshu.com/u/0293a04839f0" target="_blank">sunningcarry</a></dd>-->
+                    <dd><span class="setWidth">黑龙江大学 </span><span>本科(2014-2018)</span></dd>
+                    <dd><span class="setWidth">计算机科学技术学院</span> <span>专业综合排名第八</span></dd>
+                    <dd><span>GitHub:</span> <a href="https://github.com/sunningcarryhaha" target="_blank">https://github.com/sunningcarryhaha</a></dd>
+                    <dd><span>Blog:</span> <a href="http://www.jianshu.com/u/0293a04839f0" target="_blank">sunningcarry</a></dd>
                 </li>
                 <li>
                     <dt>项目经验</dt>
@@ -106,7 +121,7 @@
                             <ul class="describe">
                                 <li>使用Angular+es6进行环境搭建工具添加参数、参数值动态更改功能的前端开发</li>
                                 <li>使用Angular+es6 负责select-dt指令封装实现不同筛选条件</li>
-                                <li>使用jQuery完成两层条件排序、层叠模块默认搜索、表单验证升级、搭配Font Awesome进行显示和隐藏等需求.</li>
+                                <li>实现两层条件排序、层叠模块默认搜索、表单验证升级、搭配Font Awesome进行显示和隐藏等需求.</li>
                             </ul>
                         </li>
                     </ul>
@@ -114,7 +129,6 @@
                         <li>
                             <h4>
                                 数据采集系统
-                                <a href="https://github.com/sunningcarryhaha/myApp" target="_blank">源码</a>
                             </h4>
                             <ul class="describe">
                                 <li>一个可以读取文件数据可以优雅显示的网站，在输入日期范围，相应数据在Echarts 中动态显示，输入相应条件可高亮范围内的表格数据，排序等功能.</li>
@@ -124,7 +138,6 @@
                         <li>
                             <h4>
                                 JS编写操作系统常用算法
-                                <a href="https://github.com/sunningcarryhaha/os-code" target="_blank">源码</a>
                             </h4>
                             <ul class="describe">
                                 <li>运用<span>JavaScript</span>编写了多个操作系统有关算法。算法中常用的数据结构有队列链表和动态数组;编写的算法有OPT，FIFO和LRU;FCFS,SJF和时间片轮转;物理逻辑地址间转换等等..</li>
@@ -134,7 +147,6 @@
                         <li>
                             <h4>
                                 许可证管理系统
-                                <a href="https://github.com/sunningcarryhaha/mineInformation" target="_blank">源码</a>
                             </h4>
                             <ul class="describe">
                                 <li>用户输入相关非煤矿山的信息进行提交，管理员进行审核通过后即可在管理许可模块中进行公布用户电子许可证，项目多以数据交互数据展示为主.</li>
@@ -159,15 +171,10 @@
                     </ul>
                 </li>
                 <li>
-                    <dt>校园活动及奖项</dt>
+                    <dt>校园活动</dt>
                     <ul class="describe setStyle">
                         <li>黑龙江大学科技创新协会外联部部长, 参与并举办过两届校级ACM竞赛,为组织筹备赞助共22000元</li>
-                        <li>
-                            黑龙江大学移动应用设计竞赛一等奖</li>
-                        <li>
-                            黑龙江大学ACM竞赛三等奖</li>
-                        <li>
-                            黑龙江大学三等奖学金</li>
+                        <li>黑龙江大学科技创新协会UI组指导学弟学妹进行前端的学习。</li>
                     </ul>
                 </li>
             </ul>
