@@ -9,11 +9,25 @@
     <link rel="stylesheet" href="dist/css/style.min.css">
     <link rel="stylesheet" href="dist/css/fontello.min.css">
     <style type="text/css">
+        .container{
+            font-family:'Microsoft YaHei';
+        }
         #blank {
             margin-bottom: 8px;
         }
-        
-        ;
+        .describe{
+            margin-left: 50px;
+            margin-top: 8px;
+        }
+        .describe > li{
+            list-style-type: disc;
+            color: #616161;
+        }
+        .setStyle > li{
+            line-height: 25px;
+            font-size: 15px;
+            margin-left: 40px;
+        }
     </style>
     <script>
         (function(i, s, o, g, r, a, m) {
@@ -88,10 +102,12 @@
                     <dt>项目经验</dt>
                     <ul class="exp">
                         <li>
-                            <h4>百度 前端开发实习生</h4>
-                            <p>使用Angular+es6进行环境搭建工具添加参数、参数值动态更改功能的前端开发</p>
-                            <p>使用Angular+es6 负责select-dt指令封装实现不同筛选条件</p>
-                            <p>使用jQuery完成两层条件排序、层叠模块默认搜索、表单验证升级、搭配Font Awesome进行显示和隐藏等需求.</p>
+                            <h4>百度前端开发实习生</h4>
+                            <ul class="describe">
+                                <li>使用Angular+es6进行环境搭建工具添加参数、参数值动态更改功能的前端开发</li>
+                                <li>使用Angular+es6 负责select-dt指令封装实现不同筛选条件</li>
+                                <li>使用jQuery完成两层条件排序、层叠模块默认搜索、表单验证升级、搭配Font Awesome进行显示和隐藏等需求.</li>
+                            </ul>
                         </li>
                     </ul>
                     <ul class="exp">
@@ -100,23 +116,36 @@
                                 数据采集系统
                                 <a href="https://github.com/sunningcarryhaha/myApp" target="_blank">源码</a>
                             </h4>
-                            <p>一个可以读取文件数据可以优雅显示的网站，在输入日期范围，相应数据在Echarts 中动态显示，输入相应条件可高亮范围内的表格数据，排序等功能.</p>
-                            <p>独立完成该项目，亮点为前端使用Echarts动态显示，后端使用 Node.js 及 Express，提取文件数据配合数据库MySql进行开发</p>
-                            <p></p>
+                            <ul class="describe">
+                                <li>一个可以读取文件数据可以优雅显示的网站，在输入日期范围，相应数据在Echarts 中动态显示，输入相应条件可高亮范围内的表格数据，排序等功能.</li>
+                                <li>独立完成该项目，亮点为前端使用Echarts动态显示，后端使用 Node.js 及 Express，提取文件数据配合数据库MySql进行开发</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>
+                                JS编写操作系统常用算法
+                                <a href="https://github.com/sunningcarryhaha/os-code" target="_blank">源码</a>
+                            </h4>
+                            <ul class="describe">
+                                <li>运用<span>JavaScript</span>编写了多个操作系统有关算法。算法中常用的数据结构有队列链表和动态数组;编写的算法有OPT，FIFO和LRU;FCFS,SJF和时间片轮转;物理逻辑地址间转换等等..</li>
+                                <li>通过运用JS中的protype实现了多个属性的封装,moudle.exports进行模块接口方法的封装,使得代码高内聚低耦合,加快开发效率</li>
+                            </ul>
                         </li>
                         <li>
                             <h4>
                                 许可证管理系统
                                 <a href="https://github.com/sunningcarryhaha/mineInformation" target="_blank">源码</a>
                             </h4>
-                            <p>用户输入相关非煤矿山的信息进行提交，管理员进行审核通过后即可在管理许可模块中进行公布用户电子许可证，项目多以数据交互数据展示为主</p>
-                            <p>第一次接触的项目,主要负责前端的制作,网站以BootStrap和jQuery搭建,多以数据交互数据展示为主,锻炼了前后台合作开发以及调试的能力</p>
+                            <ul class="describe">
+                                <li>用户输入相关非煤矿山的信息进行提交，管理员进行审核通过后即可在管理许可模块中进行公布用户电子许可证，项目多以数据交互数据展示为主.</li>
+                                <li>第一次接触的项目,主要负责前端的制作,网站以BootStrap和jQuery搭建,多以数据交互数据展示为主,锻炼了前后台合作开发以及调试的能力</li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
                 <li>
                     <dt>个人技能</dt>
-                    <ul class="exp">
+                    <ul class="describe setStyle">
                         <li>熟悉 JavaScript 语言，了解ES6 的新特性并有相关使用经验</li>
                         <li>熟悉 HTML、CSS，能够编写规范并具有良好兼容性的 HTML 页面</li>
                         <li>
@@ -131,7 +160,7 @@
                 </li>
                 <li>
                     <dt>校园活动及奖项</dt>
-                    <ul class="exp">
+                    <ul class="describe setStyle">
                         <li>黑龙江大学科技创新协会外联部部长, 参与并举办过两届校级ACM竞赛,为组织筹备赞助共22000元</li>
                         <li>
                             黑龙江大学移动应用设计竞赛一等奖</li>
