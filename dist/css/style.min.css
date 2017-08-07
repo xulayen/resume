@@ -90,6 +90,13 @@ aside a {
     display: inline-block;
     width: 200px;
 }
+.setWidth2{
+    display: inline-block;
+    width: 195px;
+}
+.setDdRight{
+    margin-left: 60px;
+}
 .side-info{
     margin-left: 10px;
 }
@@ -164,7 +171,6 @@ h2 {
 }
 
 .someRight dd {
-    margin-left: 25px;
     margin-bottom: 8px;
 }
 
