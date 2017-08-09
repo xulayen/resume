@@ -22,7 +22,7 @@ body {
 
 .sidebar,
 aside li {
-    background: #f0f2f1;
+    background: #fff;
 }
 
 li,
@@ -209,7 +209,7 @@ h2 {
     left: 250px;
     width: 770px;
     padding: 15px 20px 10000px;
-    background: #f0f2f1;
+    background: #fff;
     margin-bottom: -10000px
 }
 
