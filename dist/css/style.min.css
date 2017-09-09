@@ -224,9 +224,9 @@ h2 {
 .main-info dt {
     font-size: 21px;
     color: #00796b;
-    line-height: 60px;
+    line-height: 55px;
     border-bottom: 1px solid #00796b;
-    margin: 0 0 35px 12px;
+    margin: 0 0 25px 12px;
 }
 
 .main-info dd {
@@ -245,7 +245,6 @@ h5 {
     font-size: 16px
 }
 
-.exp p,
 footer a,
 footer p {
     color: #616161
@@ -301,14 +300,14 @@ h5 a {
 
 .exp p {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 27px;
     margin-bottom: 3px
 }
 
 .exp>li {
     position: relative;
     top: -5px;
-    margin: 0 0 20px 20px
+    margin: 0 0 10px 20px
 }
 
 .exp img {
@@ -316,7 +315,7 @@ h5 a {
 }
 
 .exp ul>li {
-    margin: 0 0 12px
+    margin: 0 0 5px 0;
 }
 
 .efe .task4img img {
